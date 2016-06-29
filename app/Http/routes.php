@@ -15,11 +15,6 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-
-Route::get('/teste', function(){
-	return "askjdbl";
-});
-
 Route::get('/outraRota', function(){
 	return "teste";
 });
