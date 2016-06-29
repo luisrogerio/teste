@@ -18,6 +18,11 @@ Route::get('/', function () {
 Route::get('/outraRota', function(){
 	return "teste";
 });
+
+Route::get('/novinha', function(){
+	return "askjdbl";
+});
+
 Route::get('/wagner', function(){
 	return "askjdbl";
 });
