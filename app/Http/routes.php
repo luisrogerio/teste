@@ -19,3 +19,7 @@ Route::get('/', function () {
 Route::get('/teste', function(){
 	return "askjdbl";
 });
+
+Route::get('/teste234', function(){
+	return "a342151324413241234";
+});
