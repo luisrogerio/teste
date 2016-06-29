@@ -23,3 +23,7 @@ Route::get('/teste', function(){
 Route::get('/teste234', function(){
 	return "a342151324413241234";
 });
+
+Route::get('teste123456', function(){
+	return "Blá";
+});
