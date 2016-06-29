@@ -19,3 +19,7 @@ Route::get('/', function () {
 Route::get('/teste', function(){
 	return "askjdbl";
 });
+
+Route::get('/wagner', function(){
+	return "askjdbl";
+});
