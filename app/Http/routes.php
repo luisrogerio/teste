@@ -24,5 +24,5 @@ Route::get('/novinha', function(){
 });
 
 Route::get('/wagner', function(){
-	return "askjdbl";
+	return view('teste');
 });
