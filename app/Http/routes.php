@@ -11,18 +11,8 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/','HomeController@index');
 
-Route::get('/outraRota', function(){
-	return "teste";
-});
+Route::auth();
 
-Route::get('/novinha', function(){
-	return "askjdbl";
-});
-
-Route::get('/wagner', function(){
-	return view('teste');
-});
+Route::get('/home', 'HomeController@index');
