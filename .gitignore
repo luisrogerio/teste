@@ -4,6 +4,12 @@
 Homestead.yaml
 Homestead.json
 .env
+<<<<<<< HEAD
 .phpstorm.meta.php
 _ide_helper.php
+_ide_helper.php
+=======
+_ide_helper.php
+.phpstorm.meta.php
+>>>>>>> origin/autenticacao
 _ide_helper.php
