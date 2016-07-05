@@ -14,13 +14,13 @@ Route::group(['middleware' => 'web'], function(){
 
 	Route::auth();
 
-<<<<<<< HEAD
+
 Route::auth();
 
 Route::get('/home', 'HomeController@index');
 
 Route::get('/register', 'Auth\AuthController@register');
-=======
+
 	Route::get('/home', 'HomeController@index');
 });
->>>>>>> origin/autenticacao
+
