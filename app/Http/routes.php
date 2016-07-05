@@ -1,5 +1,4 @@
 <?php
-
 /*
 |--------------------------------------------------------------------------
 | Application Routes
@@ -16,3 +15,5 @@ Route::get('/','HomeController@index');
 Route::auth();
 
 Route::get('/home', 'HomeController@index');
+
+Route::get('/register', 'Auth\AuthController@register');
